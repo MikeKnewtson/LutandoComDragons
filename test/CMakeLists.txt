@@ -7,7 +7,6 @@ add_subdirectory(lib/Catch2)
 add_executable(DragonTest DragonTest.cpp)
 target_link_libraries(DragonTest PRIVATE DragonLib Catch2::Catch2WithMain)
 
-include(CTest)
 include(Catch)
 
 catch_discover_tests(DragonTest)
