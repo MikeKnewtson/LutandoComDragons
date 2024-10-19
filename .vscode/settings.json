@@ -1,0 +1,6 @@
+{
+    "clangd.arguments": [
+        "--background-index --header-insertion=never --malloc-trim --pch-storage=memory --clang-tidy"
+    ],
+    "cmake.cacheInit": null
+}
