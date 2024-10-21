@@ -2,6 +2,7 @@
 
 #include <Weapon.hpp>
 #include <Time.hpp>
+#include <algorithm>
 
 class Dragon {
 private:
@@ -11,9 +12,7 @@ private:
 
     void heals(const Time& time) {
         health += (time.seconds * max_health) / healing_time;
-        if (health > max_health) {
-            health = max_health;
-        }
+        health = std::min(health, max_health);
     }
 
 public:
