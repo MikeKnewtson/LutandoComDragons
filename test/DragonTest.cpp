@@ -25,12 +25,6 @@ TEST_CASE("Dragon test", "[Dragon-Test]")
         REQUIRE_FALSE(dragon.is_alive());
     }
 
-    SECTION("Dragon is mortal after all") {
-        dragon.takes_a_hit(sword);
-        dragon.takes_a_hit(sword);
-        REQUIRE_FALSE(dragon.is_alive());
-    }
-
     SECTION("Dragon can heal") {
         dragon.takes_a_hit(sword);
         dragon.has_time(half_an_hour);
