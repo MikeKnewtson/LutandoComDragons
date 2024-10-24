@@ -2,8 +2,7 @@
 
 using namespace std;
 
-int main()
-{
-	cout << "Lutando com Dragons!" << endl;
-	return 0;
+int main() {
+  cout << "Lutando com Dragons!" << endl;
+  return 0;
 }

@@ -1,5 +1,5 @@
 #pragma once
 
 struct Time {
-    int seconds;
+  int seconds;
 };

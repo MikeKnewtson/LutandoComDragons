@@ -1,5 +1,5 @@
 #pragma once
 
 struct Weapon {
-    static constexpr int damage{50};
+  static constexpr int damage{50};
 };
