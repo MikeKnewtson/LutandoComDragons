@@ -4,7 +4,7 @@ project(DragonTest LANGUAGES CXX VERSION 0.0.1)
 
 add_subdirectory(lib/Catch2)
 
-add_executable(DragonTest DragonTest.cpp)
+add_executable(DragonTest DragonTest.cpp NamedTest.cpp)
 target_link_libraries(DragonTest PRIVATE DragonLib Catch2::Catch2WithMain)
 
 include(Catch)
