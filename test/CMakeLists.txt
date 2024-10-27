@@ -10,3 +10,5 @@ target_link_libraries(DragonTest PRIVATE DragonLib Catch2::Catch2WithMain)
 include(Catch)
 
 catch_discover_tests(DragonTest)
+
+set_property(TARGET DragonTest PROPERTY CXX_STANDARD 20)

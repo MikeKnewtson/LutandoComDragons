@@ -4,7 +4,7 @@
 #include <Weapon.hpp>
 #include <algorithm>
 
-template <int max_health, int healing_time> class MortalCreature {
+template <auto max_health, auto healing_time> class MortalCreature {
 private:
   int health{max_health};
 
