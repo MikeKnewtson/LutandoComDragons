@@ -4,4 +4,6 @@
 
 struct HumanWeapon {};
 
-struct Sword : public Weapon<50>, public HumanWeapon {};
+static constexpr auto SwordDamage = 50;
+
+struct Sword : public Weapon<SwordDamage>, public HumanWeapon {};

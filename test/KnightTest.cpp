@@ -1,11 +1,12 @@
 #include <catch2/catch_test_macros.hpp>
 
+#include <Excaliber.hpp>
 #include <Knight.hpp>
 #include <Time.hpp>
-#include <Weapon.hpp>
+
 
 TEST_CASE("Knight test", "[Knight-Test]") {
-  Knight knight;
+  Knight<Excaliber> knight;
   Weapon dragon_claw;
   Time half_an_hour{.seconds = 1800};
 

@@ -1,3 +1,6 @@
 {
-    "cmake.cacheInit": null
+    "cmake.cacheInit": null,
+    "files.associations": {
+        "type_traits": "cpp"
+    }
 }
