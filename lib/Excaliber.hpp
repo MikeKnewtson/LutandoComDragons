@@ -7,4 +7,8 @@ namespace Names {
 static constexpr char Excaliber[] = "Excaliber";
 }
 
-struct Excaliber : public Named<Sword, Names::Excaliber> {};
+static constexpr auto HeavySwordDamage = 100;
+
+struct HeavySword : public Weapon<HeavySwordDamage>, public HumanWeapon {};
+
+struct Excaliber : public Named<HeavySword, Names::Excaliber> {};
