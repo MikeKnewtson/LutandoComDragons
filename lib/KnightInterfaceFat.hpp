@@ -8,7 +8,7 @@ public:
   virtual void RunAway() = 0;
   virtual void Block() = 0;
   virtual void AttackWithSword() = 0;
-  virtual void AttachwithAxe() = 0;
+  virtual void AttackWithAxe() = 0;
   virtual void Die() = 0;
   virtual void Engage(DragonInterface *dragon) = 0;
 };
