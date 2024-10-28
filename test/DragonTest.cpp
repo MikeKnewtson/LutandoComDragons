@@ -1,12 +1,13 @@
 #include <catch2/catch_test_macros.hpp>
 
 #include <Dragon.hpp>
+#include <KnightWeapons.hpp>
 #include <Time.hpp>
-#include <Weapon.hpp>
+
 
 TEST_CASE("Dragon test", "[Dragon-Test]") {
   Dragon dragon;
-  Weapon sword;
+  Excaliber sword;
   Time half_an_hour{.seconds = 1800};
 
   SECTION("Dragon is alive") { REQUIRE(dragon.is_alive()); }
