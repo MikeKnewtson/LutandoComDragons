@@ -2,4 +2,4 @@
 
 #include <MortalCreature.hpp>
 
-class Dragon : public MortalCreature<100, 3600> {};
+class Dragon : public MortalCreature<1000, 3600> {};

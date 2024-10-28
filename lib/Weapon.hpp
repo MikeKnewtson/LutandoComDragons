@@ -1,5 +1,5 @@
 #pragma once
 
-struct Weapon {
-  static constexpr int damage{50};
+template <auto Damage = 50> struct Weapon {
+  static constexpr int damage{Damage};
 };

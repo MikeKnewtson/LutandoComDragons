@@ -14,7 +14,9 @@ private:
   }
 
 public:
-  void takes_a_hit(const Weapon &weapon) { health -= weapon.damage; }
+  template <typename WeaponT> void takes_a_hit(const WeaponT &weapon) {
+    health -= WeaponT::damage;
+  }
 
   void has_time(const Time &time) { heals(time); }
 
