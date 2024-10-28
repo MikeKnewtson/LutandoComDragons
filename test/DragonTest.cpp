@@ -1,9 +1,8 @@
 #include <catch2/catch_test_macros.hpp>
 
 #include <Dragon.hpp>
-#include <KnightWeapons.hpp>
+#include <Excaliber.hpp>
 #include <Time.hpp>
-
 
 TEST_CASE("Dragon test", "[Dragon-Test]") {
   Dragon dragon;
