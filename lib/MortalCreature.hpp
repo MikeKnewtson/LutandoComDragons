@@ -1,7 +1,6 @@
 #pragma once
 
 #include <Time.hpp>
-#include <Weapon.hpp>
 #include <algorithm>
 
 template <auto max_health, auto healing_time> class MortalCreature {
