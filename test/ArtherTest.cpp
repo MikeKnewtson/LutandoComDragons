@@ -3,7 +3,6 @@
 #include <Arther.hpp>
 #include <Excaliber.hpp>
 #include <format>
-#include <type_traits>
 
 TEST_CASE("Arther test", "[Arther-Test]") {
   Arther arther;
